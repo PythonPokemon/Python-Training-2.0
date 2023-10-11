@@ -18,6 +18,3 @@ tiere = ["hund", "katze", "maus", "vogel"]
 for index, tiere in enumerate(tiere): 
     print(index, tiere)
 
-# Liste Anfügen
-tiere.append("Hai")
-print(tiere)
