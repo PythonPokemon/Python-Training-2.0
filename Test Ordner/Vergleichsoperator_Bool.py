@@ -3,6 +3,7 @@ aufgabe_2 = "Aufgabe 2, kleiner als"
 aufgabe_3 = "Aufgabe 3, kleiner/größer oder gleich"
 aufgabe_4 = "Aufgabe 4, gleicher wert"
 aufgabe_5 = "Aufgabe 5, ungleicher wert"
+aufgabe_6 = "Aufgabe 6, Punkt vor strich berechnung"
 
 # Boole wert sagt ob etwas True / False ist also : wahr oder falsch
 
@@ -30,3 +31,6 @@ print(aufgabe_5)
 # ungleicher wert
 print (1 != 2) # True, da 1 ungleich 2 ist.
 print (1 != 1) # False, da 1 nicht ungleich 1 ist.
+
+print(aufgabe_6)
+print((2 + 3) * 2 == 10) # true, da 2 + 3 = 5 ist * 2 = 10 == 10 True, also Richtig!
