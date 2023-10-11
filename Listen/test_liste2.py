@@ -12,8 +12,9 @@ print(meine_liste[2])
 print(meine_liste[3])
 print(meine_liste[4])
 
-tiere = ["hund", "katze", "maus"]
+tiere = ["hund", "katze", "maus", "vogel"]
 
-for tiere in tiere:
-    print(tiere)
+# Aufzählunsvariante der Liste
+for index, tiere in enumerate(tiere): 
+    print(index, tiere)
 
