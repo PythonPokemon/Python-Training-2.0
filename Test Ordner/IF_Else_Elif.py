@@ -2,7 +2,7 @@
 aufgabe_1 = ("Aufgabe 1, Altersabfrage:")
 print(aufgabe_1)
 
-alter = int(input("Bitte gib deinen Namen ein: "))
+alter = int(input("Bitte gib dein Alter ein: "))
 
 if alter < 18:# alles kleinr 18
     print("Achtung der Nutzer ist unter 18 Jahre alt!")
@@ -14,5 +14,8 @@ elif alter == 19: # 19 gleich 19
 
 else: # alle ab 20 Jahre fallen hier rein
     print("Der Nutzer ist volljährig")
+
+
+
 
 print("Programmende")
