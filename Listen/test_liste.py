@@ -8,11 +8,8 @@ meine_liste = [1, "zwei", True, 2,34]
 
 # Index
 print(meine_liste[1])
-
 print(meine_liste[2])
-
 print(meine_liste[3])
-
 print(meine_liste[4])
 
 tiere = ["hund", "katze", "maus"]
