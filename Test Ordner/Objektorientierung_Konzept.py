@@ -1,5 +1,5 @@
 # Wozu wird die OOP - Objekt-Orientierte-Programmierung benbötigt?
-# Eigene Daten können mithilfe von OOP kreiert werden :-)
+# Dadurch können eigene Daten mithilfe von OOP kreiert werden :-)
 # Darstellung von Daten:
 # z.B. Zahlen, Strings, Listen
 # Basis-Datentyp (int, float, str, list)
