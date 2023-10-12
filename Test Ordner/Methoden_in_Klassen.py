@@ -2,11 +2,18 @@
 
 # __init__ Methode == Funktion die Innerhalb der Klasse/Class bezeichnet wird
 class Auto: # 'Klasse' Generel und erweiterbar für alle Objekte!
-    def __init__(self): # definition der Attribute, für das Objekt!
+    def __init__(self): # 'Methode 1' mit Attributen, für ein Objekt!
         self.auto_marke = None # der Wert None steht für nichts,
         self.ps_stärke = None # damit die Parameter Spezifisch,
         self.auto_farbe = None # objektbezogen, bsp: auto1 oder auto2,
         self.auto_türen = None # eingegeben werden können!
+        self.x_position = 5 # start position x-achse 5
+        self.y_position = 5 # start position y-achse 5
+
+    def fahren(self, x, y): # 'Methode 2'
+        self.x_position += x
+        self.y_position += y
+
 #-----------------------------------------------
 # 'Objekt'-Auto 1
 auto1 = Auto() # Eingabe Attribute
@@ -14,6 +21,7 @@ auto1.auto_marke = 'BMW M3'
 auto1.ps_stärke = 250
 auto1.auto_farbe = 'Perl Weiss'
 auto1.auto_türen = 3
+
 
 # Auto 1 = ausgabe der Attribute, über print
 print(auto1.auto_marke) 
