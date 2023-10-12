@@ -12,6 +12,7 @@ def sag_hallo(vorname, nachname, taubenname, geburtstag, präsident):
 
 # Reihenfolge beachten
 #           1           2              3       4         5
-sag_hallo('Ali', ' Vonderlayen', 'Hassan', 'Oktober', 'Putin') # Funktionsaufruf + integrierte Parameter, String
-
+print(type(sag_hallo('Ali', ' Vonderlayen', 'Hassan', 'Oktober', 'Putin'))) # Funktionsaufruf + integrierte Parameter, String
+#print davor gibt einen rückgabewert in der Konsole aus: 'None' = nichts!
+# mit type davor, wird die classe 'NoneType' in der Konsole ausgegeben ! (BasisDatentyp)
 print('Programm Ende')
