@@ -10,7 +10,7 @@ class Auto: # 'Klasse' Generel und erweiterbar für alle Objekte!
         self.x_position = 5 # start position x-achse 5
         self.y_position = 5 # start position y-achse 5
 
-    def fahren(self, x, y): # 'Methode 2'
+    def fahren(self, x, y): # 'Methode 2' zum 'Fahren' Attribut
         self.x_position += x
         self.y_position += y
 
@@ -28,19 +28,8 @@ print(auto1.auto_marke)
 print(auto1.ps_stärke)
 print(auto1.auto_farbe)
 print(auto1.auto_türen)
-#-----------------------------------------------
-# 'Objekt'Auto 2 Eingabe Parameter
-auto2 = Auto()
-auto2. auto_marke = 'Audi R8'
-auto2.ps_stärke = 300
-auto2.auto_farbe = 'Schwarz Carbon'
-auto2.auto_türen = 2
 
-# Auto 2 = ausgabe der Parameter über print
-print(auto2.auto_marke) 
-print(auto2.ps_stärke)
-print(auto2.auto_farbe)
-print(auto2.auto_türen)
-#-----------------------------------------------
-# usw...
-#auto3 = Auto()
+# Fahren Attribute  1  2
+auto1.fahren(5, 10)
+print(auto1.x_position) # Attribut 1, wird + 5 zu x-achse addiert
+print(auto1.y_position) # Attribut 2, wird + 10 zu y-achse adiert
