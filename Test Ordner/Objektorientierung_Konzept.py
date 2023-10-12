@@ -10,7 +10,13 @@ class Auto:
     def __init__(self):
         self.auto_marke = None
         self.ps_stärke = None
-        self.farbe = None
+        self.auto_farbe = None
 
-bmw_m3 =Auto()
-print(bmw_m3.auto_marke)
+auto1 =Auto()
+auto1.auto_marke = 'BMW M3'
+auto1.ps_stärke = 250
+auto1.auto_farbe = 'Perl Weiss'
+
+print(auto1.auto_marke)
+print(auto1.ps_stärke)
+print(auto1.auto_farbe)
